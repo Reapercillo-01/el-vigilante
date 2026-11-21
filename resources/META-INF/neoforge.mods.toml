@@ -1,0 +1,27 @@
+modLoader = "javafml"
+loaderVersion = "[1,)"
+license = "All-Rights-Reserved"
+
+[[mods]]
+modId = "el_vigilante"
+version = "0.1.0-alpha"
+displayName = "El Vigilante"
+authors = "Reapercillo"
+description = '''
+Te explica en español por qué se cerró Minecraft y cómo solucionarlo.
+Versión de prueba (alpha 0.1).
+'''
+
+[[dependencies.el_vigilante]]
+modId = "neoforge"
+type = "required"
+versionRange = "[26.3,)"
+ordering = "NONE"
+side = "CLIENT"
+
+[[dependencies.el_vigilante]]
+modId = "minecraft"
+type = "required"
+versionRange = "[26.3,26.4)"
+ordering = "NONE"
+side = "CLIENT"
